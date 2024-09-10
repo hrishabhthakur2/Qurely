@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Qurely: Revolutionizing Hospital Management in Delhi 🏥🌇
 
-## Getting Started
+Qurely is a cutting-edge web application developed using Next.js, Tailwind CSS, Shadcn UI, and Clerk for authentication. This project, commissioned by the Delhi government, aims to streamline and optimize hospital management across the city, providing a comprehensive solution for managing OPD appointments, drug stores, bed availability tracking, doctor appointment processes, and much more.
 
-First, run the development server:
+## Key Features 🌟
 
+### 1. OPD Appointment Management 📅
+- Patients can easily book outpatient appointments online.
+- Real-time updates on appointment status and availability.
+
+### 2. Drug Store Integration 💊
+- Seamless access to medications, including checking drug availability.
+- Online ordering and delivery for improved convenience.
+
+### 3. Bed Availability Tracking 🛏️
+- Comprehensive tracking of bed availability in hospitals.
+- Efficient management of hospital admissions.
+
+### 4. Doctor Appointment Process 👨‍⚕️
+- Patients can track doctor availability for timely consultations.
+- Streamlined appointment booking and management.
+
+### 5. Medical Records Management 📁
+- Patients can access and update their medical reports online.
+- Secure storage and easy retrieval of medical records.
+
+### 6. Hospital Staff Management 👩‍⚕️👨‍⚕️
+- Efficient management of hospital staff schedules and shifts.
+- Improved communication and collaboration among staff members.
+
+### 7. Analytics and Reporting 📊
+- Comprehensive data analysis and reporting for hospital management.
+- Insights into patient flow, resource utilization, and performance metrics.
+
+## Technologies Used 🛠️
+
+- **Next.js**: A React framework for building server-rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Shadcn UI**: A set of accessible, customizable, and production-ready components.
+- **Clerk**: A platform for user authentication and management.
+- **React**: A JavaScript library for building user interfaces.
+- **Node.js**: A JavaScript runtime for server-side development.
+
+## Getting Started 🚀
+
+To run Qurely locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/qurely.git
+   ```
+2. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  cd qurely
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
+4. Update the environment variables in .env.local with your own values.
+5. Start the development server:
+```bash
+npm run dev
+```
+Open your browser and visit http://localhost:3000 to see the application.
