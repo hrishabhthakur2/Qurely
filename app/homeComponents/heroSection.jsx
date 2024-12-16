@@ -23,7 +23,7 @@ export default function HeroSection() {
               <span className="border border-sky-500 px-4"> Medical</span> and{" "}
               <span className="text-sky-500">Health </span>{" "}
             </span>
-            <span>motu upadhyay</span>
+            <span>Assistance</span>
           </h1>
           <p className="text-lg text-sky-600">{content.description} </p>
 
